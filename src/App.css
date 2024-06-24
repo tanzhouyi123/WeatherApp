@@ -1,0 +1,64 @@
+.App {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+}
+
+.search {
+  text-align: center;
+  padding: 1rem;
+}
+
+input {
+  padding: 0.7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.1);
+  color: #030303;
+}
+
+::placeholder {
+  color: #050505;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 0 1rem;
+  position: relative;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; /* Center content horizontally */
+}
+
+.top {
+  width: 100%;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.description {
+  margin-top: 0.5rem;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.bold {
+  font-weight: 700;
+}
